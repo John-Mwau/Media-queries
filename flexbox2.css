@@ -24,6 +24,6 @@ body{
 @media (max-width:600px){
     .flexbox{
         display:flex;
-        flex-direction: block;
+        flex-direction: row;
     }
 }
