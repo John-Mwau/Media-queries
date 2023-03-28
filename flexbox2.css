@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(208, 189, 199, 0.18);
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+ .box1{
+    background-color: bisque;
+    width: 300px;
+}
+.box2{
+    background-color: rgb(42, 61, 61);
+    width: 200px;
+    position: absolute;
+    left: 40%;
+}
+.box3{
+    background-color:greenyellow;
+    width: 500px;
+    position: absolute;
+    left: 60%;
+}
+@media (max-width:600px){
+    .flexbox{
+        display:flex;
+        flex-direction: block;
+    }
+}
